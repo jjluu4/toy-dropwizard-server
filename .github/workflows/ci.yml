@@ -3,7 +3,7 @@ name: continuous integration example
 on:
   push:
     branches:
-      - main
+      - ci
 
 jobs:
   build-and-test:
